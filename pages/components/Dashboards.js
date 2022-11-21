@@ -11,7 +11,7 @@ import deved from "../../public/kane-no-backg.png";
 
 const Dashboards = () => {
     return(
-        <><div className="text-center p-0 dark:text-white">
+        <div className="text-center p-0 dark:text-white">
             <h2 className="text-teal-500 text-5xl py-2 color font-medium md:text-6xl text-center ml-2">
                 Shaquille Rashaun
             </h2>
@@ -54,11 +54,13 @@ const Dashboards = () => {
                 >
                     <AiFillInstagram />
                 </a>
-            </div><div className="realtive mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-10 overflow-hidden md:w-96 md:h-96">
+            </div>
+            <div className="realtive mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-10 overflow-hidden md:w-96 md:h-96">
                 <Image
                     src={deved}
                     className="w-80 h-80 md:w-96 md:h-96 object-cover ml-3" />
-            </div></>
+            </div>
+            </div>
     );
 };
 
