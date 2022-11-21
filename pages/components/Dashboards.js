@@ -7,7 +7,7 @@ import {
   } from "react-icons/ai";
 import Image from "next/image";
 import deved from "../../public/kane-no-backg.png";
-import Typed from "react-typed"
+// import Typed from "react-typed"
 
 const Dashboards = () => {
     return(
@@ -19,14 +19,14 @@ const Dashboards = () => {
             <h3 className="mb-4">
                 Fullstack Web Developer
             </h3>
-            <Typed
+            {/* <Typed
           className='md:text-3xl sm:text-2xl text-2xl font-bold md:pl-4 pl-2 pt-2 '
             strings={['Javascript', 'React', 'Next JS', 'Tailwind']}
             typeSpeed={140}
             backSpeed={100}
             loop
           />
-            </div>
+            </div> */}
             <p className="text-md leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
                 Freelancer yang menyediakan layanan untuk kebutuhan content
                 pemograman Fullstack Web Developer. Bergabunglah dengan saya di
