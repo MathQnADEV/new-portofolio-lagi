@@ -1,4 +1,3 @@
-
 const Upcoming = () => {
     return(
         <div className="dark:text-white">
